@@ -111,17 +111,17 @@ def mostrar_informacion(enfermedad):
         data = [[key, value] for key, value in enfermedades[enfermedad].items()]
         print(tabulate(data, headers=["Campo", "Descripción"], tablefmt="grid"))
     else:
-        print("Enfermedad no encontrada. Por favor, elige entre: diabetes, hipertension, leucemia.")
+        print("Enfermedad no encontrada. Por favor, elige entre: diabetes, hipertensión ,enfermedad pulmonar , asma ,hepatitis, obesidad, dengue, anemia, malaria ,sida")
 contador=0
 while contador != 1:
-   tipo_de_enfermedad = int(input("Elige el tipo de enfermedad (1 o 2): "))
+   tipo_de_enfermedad = int(input("Elige el tipo de enfermedad:\n1.Enfermedades    2.Enfermedades trasmisibles "))
 
    if tipo_de_enfermedad == 1:
-      enfermedad_elegida = input("Elige una enfermedad (diabetes, hipertension, leucemia): ").lower()
+      enfermedad_elegida = input("Digita la enfermedad la cual desea acceder al repositorio: diabetes, hipertension, asma, obesidad, anemia ").lower()
       mostrar_informacion(enfermedad_elegida)
       contador = int(input("Si desea terminar el programa digite 1: "))
    elif tipo_de_enfermedad == 2:
-      enfermedad_elegida = input("Elige una enfermedad (diabetes, hipertension, leucemia): ").lower()
+      enfermedad_elegida = input("Digita la enfermedad la cual desea acceder al repositorio: enfermedad pulmonar, hepariris, dengue, malaria, sida").lower()
       mostrar_informacion(enfermedad_elegida)
       contador = int(input("Si desea terminar el programa digite 1: "))
    else:
