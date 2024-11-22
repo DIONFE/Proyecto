@@ -14,83 +14,93 @@ print(
 
 enfermedades = {
     "diabetes": {
-        "Nombre": "Diabetes",
-        "Causa": "Insuficiencia de insulina o resistencia a la insulina",
-        "Síntomas": "Sed excesiva, micción frecuente, hambre extrema, pérdida de peso",
-        "Diagnóstico": "Pruebas de glucosa en sangre, A1C",
-        "Tratamiento": "Insulina, medicamentos, dieta, ejercicio",
-        "link": "holacrdsadsadwdack"
+        "nombre": "Diabetes",
+        "causa": "Insuficiencia de insulina o resistencia a la insulina en el cuerpo",
+        "síntomas": "Sed excesiva, micción frecuente, hambre extrema, pérdida de peso inexplicada, fatiga",
+        "diagnóstico": "Pruebas de glucosa en sangre, prueba de A1C, pruebas de tolerancia a la glucosa",
+        "tratamiento": "Insulina, medicamentos orales, dieta saludable, ejercicio regular, monitoreo constante de los niveles de glucosa",
+        "link": "https://www.who.int/news-room/fact-sheets/detail/diabetes"
+
         
         },
     "hipertension": {
-        "Nombre": "Hipertensión",
-        "Causa": "Genética, dieta, estilo de vida, condiciones médicas subyacentes",
-        "Síntomas": "Generalmente asintomática, dolores de cabeza, dificultad para respirar",
-        "Diagnóstico": "Medición de la presión arterial",
-        "Tratamiento": "Medicamentos, dieta baja en sal, ejercicio, control del estrés",
-        "link": "como vas"
+        "nombre": "Hipertensión",
+        "causa": "Genética, dieta alta en sodio, obesidad, sedentarismo, consumo excesivo de alcohol, estrés",
+        "síntomas": "Generalmente asintomática en etapas tempranas, dolor de cabeza, dificultad para respirar, mareos, visión borrosa, palpitaciones",
+        "diagnóstico": "Medición de la presión arterial en múltiples ocasiones, monitoreo de la presión arterial en casa, pruebas de laboratorio y ecocardiogramas para detectar daño en órganos",
+        "tratamiento": "Modificaciones en el estilo de vida (dieta baja en sodio, ejercicio regular), medicamentos antihipertensivos, manejo del estrés, reducción del consumo de alcohol y tabaco",
+        "link": "https://www.who.int/news-room/fact-sheets/detail/hypertension"
+
+
     },
-    "leucemia": {
-         "Nombre": "Hipertensión",
-        "Causa": "Genética, dieta, estilo de vida, condiciones médicas subyacentes",
-        "Síntomas": "Generalmente asintomática, dolores de cabeza, dificultad para respirar",
-        "Diagnóstico": "Medición de la presión arterial",
-        "Tratamiento": "Medicamentos, dieta baja en sal, ejercicio, control del estrés",
-        "link": "como vas"
+    "enfermedad pulmonal": {
+        "nombre": "Enfermedad Pulmonar Obstructiva Crónica (EPOC)",
+        "causa": "Principalmente causada por el tabaquismo, también exposición a contaminantes, polvo y productos químicos",
+        "síntomas": "Tos crónica, producción de esputo, dificultad para respirar, sibilancias, fatiga",
+        "diagnóstico": "Pruebas de función pulmonar (espirometría), radiografías de tórax, análisis de gases en sangre arterial",
+        "tratamiento": "Dejar de fumar, broncodilatadores, corticosteroides inhalados, terapia de oxígeno, rehabilitación pulmonar",
+        "link": "https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)"
+
     },
-     "leucemia": {
-         "Nombre": "Hipertensión",
-        "Causa": "Genética, dieta, estilo de vida, condiciones médicas subyacentes",
-        "Síntomas": "Generalmente asintomática, dolores de cabeza, dificultad para respirar",
-        "Diagnóstico": "Medición de la presión arterial",
-        "Tratamiento": "Medicamentos, dieta baja en sal, ejercicio, control del estrés",
-        "link": "como vas"
+     "asma": {
+        "nombre": "Asma",
+        "causa": "Inflamación y estrechamiento de las vías respiratorias, desencadenada por factores como alérgenos, infecciones respiratorias, ejercicio o estrés",
+        "síntomas": "Dificultad para respirar, sibilancias, opresión en el pecho, tos, especialmente por la noche o temprano en la mañana",
+        "diagnóstico": "Pruebas de función pulmonar (espirometría), pruebas de alergia, medición del óxido nítrico exhalado",
+        "tratamiento": "Inhaladores (broncodilatadores y corticosteroides), medicamentos de control a largo plazo, evitar desencadenantes, planes de acción para el asma",
+        "link": "https://www.who.int/news-room/fact-sheets/detail/asthma"
+
     },
-     "leucemia": {
-         "Nombre": "Hipertensión",
-        "Causa": "Genética, dieta, estilo de vida, condiciones médicas subyacentes",
-        "Síntomas": "Generalmente asintomática, dolores de cabeza, dificultad para respirar",
-        "Diagnóstico": "Medición de la presión arterial",
-        "Tratamiento": "Medicamentos, dieta baja en sal, ejercicio, control del estrés",
-        "link": "como vas"
+     "hepatitis": {
+        "nombre": "Hepatitis",
+        "causa": "Infección viral (hepatitis A, B, C, D, E), consumo excesivo de alcohol, toxinas, enfermedades autoinmunes",
+        "síntomas": "Fatiga, náuseas, vómitos, dolor abdominal, ictericia (piel y ojos amarillos), orina oscura",
+        "diagnóstico": "Pruebas de sangre para detectar la presencia del virus, ecografía del hígado, biopsia hepática",
+        "tratamiento": "Antivirales, interferón, cambios en el estilo de vida, evitar el consumo de alcohol, en casos graves, trasplante de hígado",
+        "link": "https://www.who.int/es/news-room/fact-sheets/detail/hepatitis"
+
     },
-     "leucemia": {
-         "Nombre": "Hipertensión",
-        "Causa": "Genética, dieta, estilo de vida, condiciones médicas subyacentes",
-        "Síntomas": "Generalmente asintomática, dolores de cabeza, dificultad para respirar",
-        "Diagnóstico": "Medición de la presión arterial",
-        "Tratamiento": "Medicamentos, dieta baja en sal, ejercicio, control del estrés",
-        "link": "como vas"
+     "obesidad": {
+        "nombre": "Obesidad",
+        "causa": "Desequilibrio entre la ingesta calórica y el gasto energético, factores genéticos, estilo de vida sedentario, mala alimentación",
+        "síntomas": "Exceso de grasa corporal, dificultad para realizar actividades físicas, problemas respiratorios, fatiga",
+        "diagnóstico": "Índice de masa corporal (IMC), medición del perímetro abdominal, análisis de composición corporal",
+        "tratamiento": "Dieta equilibrada, ejercicio regular, cambios en el estilo de vida, en algunos casos, medicamentos o cirugía bariátrica",
+        "link": "https://www.who.int/topics/obesity/es/"
+
     },
-     "leucemia": {
-         "Nombre": "Hipertensión",
-        "Causa": "Genética, dieta, estilo de vida, condiciones médicas subyacentes",
-        "Síntomas": "Generalmente asintomática, dolores de cabeza, dificultad para respirar",
-        "Diagnóstico": "Medición de la presión arterial",
-        "Tratamiento": "Medicamentos, dieta baja en sal, ejercicio, control del estrés",
-        "link": "como vas"
+     "dengue": {
+      "nombre": "Dengue",
+        "causa": "Virus del dengue, transmitido por mosquitos infectados (Aedes aegypti)",
+        "síntomas": "Fiebre alta, dolor de cabeza, dolor detrás de los ojos, dolor muscular y articular, náuseas, vómitos, erupciones cutáneas",
+        "diagnóstico": "Pruebas de sangre para detectar la presencia del virus, frotis de sangre, pruebas rápidas de diagnóstico",
+        "tratamiento": "Medicamentos para aliviar el dolor (acetaminofén), hospitalización en casos graves, hidratación y reposo",
+        "link": "https://www.who.int/es/news-room/fact-sheets/detail/dengue-and-severe-dengue"
     },
-     "leucemia": {
-         "Nombre": "Hipertensión",
-        "Causa": "Genética, dieta, estilo de vida, condiciones médicas subyacentes",
-        "Síntomas": "Generalmente asintomática, dolores de cabeza, dificultad para respirar",
-        "Diagnóstico": "Medición de la presión arterial",
-        "Tratamiento": "Medicamentos, dieta baja en sal, ejercicio, control del estrés",
-        "link": "como vas"
-    }, "leucemia": {
-         "Nombre": "Hipertensión",
-        "Causa": "Genética, dieta, estilo de vida, condiciones médicas subyacentes",
-        "Síntomas": "Generalmente asintomática, dolores de cabeza, dificultad para respirar",
-        "Diagnóstico": "Medición de la presión arterial",
-        "Tratamiento": "Medicamentos, dieta baja en sal, ejercicio, control del estrés",
-        "link": "como vas"
-    }, "leucemia": {
-         "Nombre": "Hipertensión",
-        "Causa": "Genética, dieta, estilo de vida, condiciones médicas subyacentes",
-        "Síntomas": "Generalmente asintomática, dolores de cabeza, dificultad para respirar",
-        "Diagnóstico": "Medición de la presión arterial",
-        "Tratamiento": "Medicamentos, dieta baja en sal, ejercicio, control del estrés",
-        "link": "como vas"
+     "Anemia": {
+        "nombre": "Anemia",
+        "causa": "Deficiencia de hierro, deficiencia de vitamina B12, pérdida de sangre, enfermedades crónicas",
+        "síntomas": "Fatiga, debilidad, piel pálida, dificultad para respirar, mareos, dolores de cabeza",
+        "diagnóstico": "Análisis de sangre (hemograma completo), niveles de hierro, ferritina y vitamina B12",
+        "tratamiento": "Suplementos de hierro, vitamina B12, cambio en la dieta, tratamiento de la causa subyacente",
+        "link": "https://www.who.int/es/news-room/fact-sheets/detail/anaemia"
+
+    }, "Malaria": {
+        "nombre": "Malaria",
+        "causa": "Plasmodium (parásitos), transmitidos por mosquitos Anopheles infectados",
+        "síntomas": "Fiebre, escalofríos, sudoración, dolor de cabeza, náuseas, vómitos, diarrea, anemia",
+        "diagnóstico": "Pruebas de sangre para detectar la presencia de parásitos, frotis de sangre, pruebas rápidas de diagnóstico",
+        "tratamiento": "Medicamentos antimaláricos como la cloroquina, artemisinina, seguimiento médico para complicaciones",
+        "link": "https://www.who.int/es/news-room/fact-sheets/detail/malaria"
+
+    }, "sida": {
+        "nombre": "VIH/SIDA",
+        "causa": "Virus de la inmunodeficiencia humana (VIH)",
+        "síntomas": "Fiebre, fatiga, inflamación de los ganglios linfáticos, pérdida de peso, infecciones oportunistas",
+        "diagnóstico": "Pruebas de detección de anticuerpos del VIH, pruebas de carga viral, pruebas de CD4",
+        "tratamiento": "Terapia antirretroviral (TAR), medicamentos para infecciones oportunistas, seguimiento médico regular",
+        "link": "https://www.who.int/es/news-room/fact-sheets/detail/hiv-aids"
+
     }
 }
 
