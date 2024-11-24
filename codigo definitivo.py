@@ -194,18 +194,29 @@ def listar_y_seleccionar(tipo):
     if not enfermedades_filtradas:
         print("No hay enfermedades disponibles en esta categoría.")
         return
+
     print("\nSelecciona una enfermedad de la lista:")
     for i, enf in enumerate(enfermedades_filtradas, start=1):
-        print(f"{i }. {enf.capitalize()}")
+        print(f"{i}. {enf.capitalize()}")
+
     try:
         seleccion = int(input("Elige el número correspondiente: ")) - 1
         if 0 <= seleccion < len(enfermedades_filtradas):
             enfermedad_seleccionada = enfermedades_filtradas[seleccion]
             mostrar_informacion(enfermedad_seleccionada)
-            print("\n¿Te gustaría calcular la probabilidad de adquirir esta enfermedad?")
-            calcular = input("(sí/no): ").strip().lower()
-            if calcular == "sí" or calcular == "si":
-                calcular_probabilidad(enfermedad_seleccionada)
+
+            # Solicitar confirmación válida
+            while True:
+                print("\n¿Te gustaría calcular la probabilidad de adquirir esta enfermedad?")
+                calcular = input("(sí/no): ").strip().lower()
+                if calcular in ["sí", "si"]:
+                    calcular_probabilidad(enfermedad_seleccionada)
+                    break
+                elif calcular == "no":
+                    print("\nGracias por utilizar nuestro sistema de información de enfermedades.")
+                    break
+                else:
+                    print("Entrada no válida. Por favor, responde con 'sí' o 'no'.")
         else:
             print("Número fuera de rango. Intenta de nuevo.")
     except ValueError:
