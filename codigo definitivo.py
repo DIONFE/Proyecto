@@ -28,7 +28,7 @@ enfermedades = {
         "tratamiento": "1. Insulina \n2. Medicamentos orales \n3. Dieta saludable \n4. Ejercicio regular \n5. Monitoreo constante de los niveles de glucosa",
         "factores de riesgo": ["Obesidad", "Sedentarismo", "Dieta alta en azúcares", "Antecedentes familiares"],
         "población afectada": "Mayormente afecta a personas mayores de 45 años y con antecedentes familiares.",
-        "material de apoyo": "para mas informacion validar este Link: https://www.who.int/es/news-room/fact-sheets/detail/diabetes",
+        "material de apoyo": "Para mas información, validar este Link: https://www.who.int/es/news-room/fact-sheets/detail/diabetes",
         "consejos": [
             "Adopta una dieta equilibrada rica en vegetales, proteínas magras y fibra.",
             "Realiza actividad física regularmente para mantener niveles de glucosa estables.",
@@ -44,7 +44,7 @@ enfermedades = {
         "tratamiento": "1. Modificaciones en el estilo de vida (dieta baja en sodio, ejercicio regular, etc.) \n2. Medicamentos antihipertensivos \n3. Manejo del estrés \n4. Reducción del consumo de alcohol y tabaco",
         "factores de riesgo": ["Estrés crónico", "Consumo excesivo de sal", "Obesidad", "Sedentarismo", "Antecedentes familiares"],
         "población afectada": "Personas mayores de 40 años, especialmente con estilos de vida sedentarios.",
-                "material de apoyo": "para mas informacion validar este Link: https://www.paho.org/es/enlace/hipertension#:~:text=La%20hipertensión%20es%20definida%20como,para%20bajar%20la%20presión%20arterial.",
+                "material de apoyo": "Para mas informació, validar este Link: https://www.paho.org/es/enlace/hipertension#:~:text=La%20hipertensión%20es%20definida%20como,para%20bajar%20la%20presión%20arterial.",
         "consejos": [
             "Reduce el consumo de sal en tus comidas.",
             "Haz ejercicio regularmente para mantener un peso saludable.",
@@ -60,7 +60,7 @@ enfermedades = {
         "tratamiento": "1. Inhaladores (broncodilatadores y corticosteroides) \n2. Medicamentos de control a largo plazo \n3. Evitar desencadenantes \n4. Planes de acción para el asma",
         "factores de riesgo": ["Antecedentes familiares", "Exposición a alérgenos", "Infecciones respiratorias recurrentes", "Tabaquismo pasivo"],
         "población afectada": "Más común en niños y adultos jóvenes con antecedentes familiares o exposición a alérgenos.",
-        "material de apoyo": "para mas informacion validar este Link: https://www.who.int/es/news-room/fact-sheets/detail/asthma",
+        "material de apoyo": "Para mas información, validar este Link: https://www.who.int/es/news-room/fact-sheets/detail/asthma",
         "consejos": [
             "Evita los desencadenantes conocidos como polvo, humo y alérgenos.",
             "Usa inhaladores según las indicaciones médicas.",
@@ -77,7 +77,7 @@ enfermedades = {
         "tratamiento": "1. Medicamentos para aliviar el dolor (acetaminofén) \n2. Hospitalización en casos graves \n3. Hidratación y reposo",
         "factores de riesgo": ["Mosquitos en la zona", "Clima tropical", "Poca protección contra picaduras", "Viviendas sin mosquiteros"],
         "población afectada": "Más frecuente en niños y adultos jóvenes que viven en zonas tropicales y subtropicales.",
-        "material de apoyo": "para mas informacion validar este Link: https://www.who.int/es/news-room/fact-sheets/detail/dengue-and-severe-dengue?gad_source=1&gclid=Cj0KCQiAuou6BhDhARIsAIfgrn5LF-asPwAetw7Zsx_xYBBZP8_lu0cj8a_iQ9DFLMqxdwaOisOVCAUaApTLEALw_wcB",
+        "material de apoyo": "Para mas información, validar este Link: https://www.who.int/es/news-room/fact-sheets/detail/dengue-and-severe-dengue?gad_source=1&gclid=Cj0KCQiAuou6BhDhARIsAIfgrn5LF-asPwAetw7Zsx_xYBBZP8_lu0cj8a_iQ9DFLMqxdwaOisOVCAUaApTLEALw_wcB",
         "consejos": [
             "Usa mosquiteros y repelentes de insectos para prevenir picaduras.",
             "Elimina los recipientes con agua estancada para evitar la reproducción de mosquitos.",
@@ -94,13 +94,14 @@ enfermedades = {
         "tratamiento": "1. Cambios en la dieta \n2. Ejercicio regular \n3. Terapia conductual \n4. Medicamentos en algunos casos \n5. Cirugía bariátrica en casos severos",
         "factores de riesgo": ["Genética", "Sedentarismo", "Dieta poco saludable", "Estrés"],
         "población afectada": "Afecta a personas de todas las edades, especialmente en países con alta disponibilidad de alimentos procesados.",
-        "material de apoyo": "para mas informacion validar este Link: https://www.who.int/es/news-room/fact-sheets/detail/obesity-and-overweight",
+        "material de apoyo": "Para mas información, validar este Link: https://www.who.int/es/news-room/fact-sheets/detail/obesity-and-overweight",
         "consejos": [
             "Adopta una dieta equilibrada y controla las porciones.",
             "Realiza actividad física al menos 150 minutos a la semana.",
             "Busca apoyo psicológico si es necesario.",
         ],
     },
+    #modifica este código y haz que en lugar de ser la enfermedad anemia sea la enfermedad de displidemia, cambiando así todo (población, diagnóstico, síntomas, etc.)
     "anemia": {
         "tipo": "metabólica crónica",
         "nombre": "Anemia",
@@ -110,11 +111,27 @@ enfermedades = {
         "tratamiento": "1. Suplementos de hierro o vitaminas \n2. Cambios en la dieta \n3. Tratamiento de la causa subyacente",
         "factores de riesgo": ["Dieta deficiente", "Menstruación abundante", "Embarazo", "Enfermedades crónicas"],
         "población afectada": "Más común en mujeres en edad fértil y personas con dietas inadecuadas.",
-        "material de apoyo": "para mas informacion validar este Link: https://www.who.int/es/health-topics/anaemia#tab=tab_1",
+        "material de apoyo": "Para mas información, validar este Link: https://www.who.int/es/health-topics/anaemia#tab=tab_1",
         "consejos": [
             "Incluye alimentos ricos en hierro como carnes rojas, legumbres y vegetales de hoja verde .",
             "Consulta a un médico si presentas síntomas de anemia.",
             "Considera suplementos de hierro si es necesario, siempre bajo supervisión médica.",
+        ],
+    },
+    "displidemia": {
+        "tipo": "metabólica crónica",
+        "nombre": "Displidemia",
+        "causa": "Alteraciones en los niveles de lípidos en la sangre, como colesterol y triglicéridos.",
+        "síntomas": "1. Niveles elevados de colesterol \n2. Niveles elevados de triglicéridos \n3. Dolor en el pecho \n4. Fatiga",
+        "diagnóstico": "1. Exámenes médicos para medir lípidos \n2. Evaluación médica",
+        "tratamiento": "1. Ejercicios regulares \n2. Cambios en la dieta \n3. Medicamentos (depende de la etapa)",
+        "factores de riesgo": ["Dieta deficiente", "Sedentarismo", "Genética familiar", "Enfermedades crónicas"],
+        "población afectada": "Puede afectar a personas de todas las edades, pero es más común en adultos",
+        "material de apoyo": "Para mas información, validar este Link: https://www.argentina.gob.ar/salud/glosario/dislipemia-colesterol-alto",
+        "consejos": [
+            "Mantén una dieta equilibrada y rica en fibra.",
+            "Realiza actividad física regularmente.",
+            "Hazte chequeos médicos periódicos."
         ],
     },
     "hepatitis": {
@@ -126,7 +143,7 @@ enfermedades = {
         "tratamiento": "1. Antivirales para hepatitis B y C \n2. Cambios en el estilo de vida \n3. Vacunación para hepatitis A y B",
         "factores de riesgo": ["Consumo de drogas intravenosas", "Relaciones sexuales sin protección", "Viajes a áreas con alta incidencia de hepatitis"],
         "población afectada": "Afecta a personas de todas las edades, especialmente en áreas con poca atención médica.",
-        "material de apoyo": "para mas informacion validar este Link: https://www.who.int/es/health-topics/hepatitis#tab=tab_1",
+        "material de apoyo": "Para mas informació,n validar este Link: https://www.who.int/es/health-topics/hepatitis#tab=tab_1",
         "consejos": [
             "Vacúnate contra la hepatitis A y B si aún no lo has hecho.",
             "Evita el consumo de alcohol y drogas.",
@@ -142,7 +159,7 @@ enfermedades = {
         "tratamiento": "1. Mantenerse en cuarentena \n2. Alimentarse equilibradamente para evitar descompensaciones \n3. Vacunación para evitar complicaciones",
         "factores de riesgo": ["Contacto con directamente infectados", "Tocamiento de superficies al público (postes, baños, etc.)"],
         "población afectada": "Afecta a personas de todas las edades, pero se complica en personas con antecedentes de enfermedades crónicas.",
-        "material de apoyo": "para mas informacion validar este Link: https://www.who.int/es/health-topics/coronavirus#tab=tab_1",
+        "material de apoyo": "Para mas información, validar este Link: https://www.who.int/es/health-topics/coronavirus#tab=tab_1",
         "consejos": [
             "Vacúnate contra la Covid-19, se recomiendan las 3 dosis.",
             "Evita salir y exponerte a cualquier clima, puede afectar aún más a la respiración.",
@@ -158,13 +175,47 @@ enfermedades = {
         "tratamiento": "1. Antibióticos (recomendados son ciprofloxacina o ceftriaxona)\n2. Hidratación\n3. Reposo\n4. Supervisión médica",
         "factores de riesgo": ["Consumir comida infectada con heces","Poca higiene con los alimentos","Poca higiene personal (no lavarse las manos, tocarse la cara, etc.)"],
         "población afectada": "Afecta a cualquier población, pero sobre todo a aquellas poblaciones en vías de desarrollo o, en otras palabras, pobreza, como lo son países del África o ciudades alejadas de latinoamérica.", 
-        "material de apoyo": "https://www.who.int/es/news-room/fact-sheets/detail/typhoid-fever",
+        "material de apoyo": "Para mas información, validar este Link: https://www.who.int/es/news-room/fact-sheets/detail/typhoid-fever",
         "consejos": [
             "Vacunarse contra la fiebre tifoidea es lo mejor que se puede hacer para prevenirla.",
             "Evita manejar alimentos con las manos sucias, siempre manipula CUALQUIER alimento con la correspondiente salubridad.",
             "Evita beber agua de cuerpos de agua extraños o donde el agua no se vea de un aspecto idóneo."
         ]
         },
+        "VIH": {
+        "tipo":"transmisible",
+        "nombre": "virus de inmunodeficiencia humana (VIH)",
+        "causa": "Infección por el virus VIH, que ataca al sistema inmunológico.",
+        "síntomas": "1. Fiebre alta\n2. Dolor (de cabeza y muscular)\n3. Ganglios linfáticos inflamados\n4. Pérdida de peso\n5. Sarpullidos\n6. Diarrea",
+        "diagnóstico": "1. Prueba de sangre para detectar anticuerpos contra el VIH\n2. Prueba de carga viral para medir la cantidad de VIH en la sangre",
+        "tratamiento": "1. Terapia antirretroviral (TAR) para controlar la infección\n2. Medicamentos para prevenir infecciones oportunistas\n3. Atención médica de apoyo",
+        "factores de riesgo": ["Contacto sexual sin protección","Uso de drogas inyectables","Transfusión de sangre contaminada","Transmisión de madre a hijo durante el embarazo, parto o lactancia"],
+        "población afectada": "Puede afectar a personas de todas las edades, géneros e identidades sexuales.", 
+        "material de apoyo": "Para mas información, validar este Link: https://medlineplus.gov/spanish/ency/article/000594.htm",
+        "consejos": [
+            "Practica sexo seguro utilizando condones.",
+            "No compartas agujas en ninguna sircunstancia.",
+            "Hazte la prueba de VIH regularmente.",
+            "Si eres positivo, sigue el tratamiento antirretroviral y mantén una vida saludable."
+        ]
+        },
+        "Tuberculosis": {
+        "tipo": "transmisible",
+        "nombre": "Tuberculosis (TB)",
+        "causa": "Infección por la bacteria Mycobacterium tuberculosis.",
+        "síntomas": "1. Tos persistente (más de 2 semanas)\n2. Tos con sangre\n3. Pérdida de peso\n4. Dolor (pecho y articulaciones)\n5. Fiebre constante\n6. Sudoración noctura exagerada",
+        "diagnóstico": "1. Prueba de la tuberculina (prueba cutánea)\n2. Radiografía de tórax\n3. Examen de esputo (cultivo y tinción)",
+        "factores de riesgo":  "1. Medicamentos antituberculosos (tomados durante varios meses)\n2. Atención médica de apoyo",
+        "factores de riesgo": [ "Exposición a personas con tuberculosis","Sistema inmunitario débil", "Consumo de tabaco", "Diabetes",  "VIH/SIDA" ],
+        "población afectada": "Puede afectar a personas de todas las edades, pero es más común en personas con sistemas inmunitarios débiles.",
+        "material de apoyo": "Para más información, validar este Link: https://medlineplus.gov/spanish/tuberculosis.html",
+        "consejos": [
+           "Vacúnate contra la tuberculosis (BCG).",
+           "Evita el contacto con personas con tuberculosis.",
+           "Mantén un estilo de vida saludable.",
+           "Si tienes síntomas de tuberculosis, consulta a un médico de inmediato."
+    ]
+}
 }
 
 # Función para mostrar información de una enfermedad
@@ -205,10 +256,10 @@ def calcular_probabilidad(enfermedad):
 
     # Ajustar probabilidad por edad
     probabilidad_base = (respuestas_positivas / len(factores)) * 100
-    if edad >= 45 and enfermedad in ["diabetes", "hipertension"]:
+    if edad >= 45 and enfermedad in ["diabetes", "hipertension", "displidemia"]:
         probabilidad_base += 10  # Incremento del 10% si es mayor de 45 años para estas enfermedades
-    elif edad < 15 and enfermedad in ["dengue"]:
-        probabilidad_base += 10  # Incremento del 10% si es menor de 15 años para dengue
+    elif edad < 20 and enfermedad in ["dengue", "asma"]:
+        probabilidad_base += 10  # Incremento del 10% si es menor de 20 años para dengue
 
     probabilidad_final = min(probabilidad_base, 100)  # Limitar a 100%
     print(f"\nLa probabilidad estimada de desarrollar {enfermedades[enfermedad]['nombre']} es del {probabilidad_final:.2f}%.")
