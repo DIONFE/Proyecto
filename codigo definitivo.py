@@ -44,7 +44,7 @@ enfermedades = {
         "tratamiento": "1. Modificaciones en el estilo de vida (dieta baja en sodio, ejercicio regular, etc.) \n2. Medicamentos antihipertensivos \n3. Manejo del estrés \n4. Reducción del consumo de alcohol y tabaco",
         "factores de riesgo": ["Estrés crónico", "Consumo excesivo de sal", "Obesidad", "Sedentarismo", "Antecedentes familiares"],
         "población afectada": "Personas mayores de 40 años, especialmente con estilos de vida sedentarios.",
-                "material de apoyo": "Para mas informació, validar este Link: https://www.paho.org/es/enlace/hipertension#:~:text=La%20hipertensión%20es%20definida%20como,para%20bajar%20la%20presión%20arterial.",
+                "material de apoyo": "Para mas informació, validar este Link: https://medlineplus.gov/spanish/ency/article/000468.htm",
         "consejos": [
             "Reduce el consumo de sal en tus comidas.",
             "Haz ejercicio regularmente para mantener un peso saludable.",
@@ -77,7 +77,7 @@ enfermedades = {
         "tratamiento": "1. Medicamentos para aliviar el dolor (acetaminofén) \n2. Hospitalización en casos graves \n3. Hidratación y reposo",
         "factores de riesgo": ["Mosquitos en la zona", "Clima tropical", "Poca protección contra picaduras", "Viviendas sin mosquiteros"],
         "población afectada": "Más frecuente en niños y adultos jóvenes que viven en zonas tropicales y subtropicales.",
-        "material de apoyo": "Para mas información, validar este Link: https://www.who.int/es/news-room/fact-sheets/detail/dengue-and-severe-dengue?gad_source=1&gclid=Cj0KCQiAuou6BhDhARIsAIfgrn5LF-asPwAetw7Zsx_xYBBZP8_lu0cj8a_iQ9DFLMqxdwaOisOVCAUaApTLEALw_wcB",
+        "material de apoyo": "Para mas información, validar este Link: https://medlineplus.gov/spanish/dengue.html",
         "consejos": [
             "Usa mosquiteros y repelentes de insectos para prevenir picaduras.",
             "Elimina los recipientes con agua estancada para evitar la reproducción de mosquitos.",
@@ -101,7 +101,6 @@ enfermedades = {
             "Busca apoyo psicológico si es necesario.",
         ],
     },
-    #modifica este código y haz que en lugar de ser la enfermedad anemia sea la enfermedad de displidemia, cambiando así todo (población, diagnóstico, síntomas, etc.)
     "anemia": {
         "tipo": "metabólica crónica",
         "nombre": "Anemia",
