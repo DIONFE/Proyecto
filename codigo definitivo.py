@@ -84,7 +84,7 @@ enfermedades = {
             "Consulta a un médico si presentas síntomas como fiebre y dolor intenso.",
         ],
     },
-    # Nuevas enfermedades añadidas
+    ##
     "obesidad": {
         "tipo": "metabólica crónica",
         "nombre": "Obesidad",
