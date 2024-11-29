@@ -44,7 +44,7 @@ enfermedades = {
         "tratamiento": "1. Modificaciones en el estilo de vida (dieta baja en sodio, ejercicio regular, etc.) \n2. Medicamentos antihipertensivos \n3. Manejo del estrés \n4. Reducción del consumo de alcohol y tabaco",
         "factores de riesgo": ["Estrés crónico", "Consumo excesivo de sal", "Obesidad", "Sedentarismo", "Antecedentes familiares"],
         "población afectada": "Personas mayores de 40 años, especialmente con estilos de vida sedentarios.",
-                "material de apoyo": "Para mas informació, validar este Link: https://medlineplus.gov/spanish/ency/article/000468.htm",
+                "material de apoyo": "Para más información, validar este Link: https://medlineplus.gov/spanish/ency/article/000468.htm",
         "consejos": [
             "Reduce el consumo de sal en tus comidas.",
             "Haz ejercicio regularmente para mantener un peso saludable.",
@@ -117,16 +117,16 @@ enfermedades = {
             "Considera suplementos de hierro si es necesario, siempre bajo supervisión médica.",
         ],
     },
-    "displidemia": {
+    "dislipemia": {
         "tipo": "metabólica crónica",
-        "nombre": "Displidemia",
+        "nombre": "Dislipemia",
         "causa": "Alteraciones en los niveles de lípidos en la sangre, como colesterol y triglicéridos.",
         "síntomas": "1. Niveles elevados de colesterol \n2. Niveles elevados de triglicéridos \n3. Dolor en el pecho \n4. Fatiga",
         "diagnóstico": "1. Exámenes médicos para medir lípidos \n2. Evaluación médica",
         "tratamiento": "1. Ejercicios regulares \n2. Cambios en la dieta \n3. Medicamentos (depende de la etapa)",
         "factores de riesgo": ["Dieta deficiente", "Sedentarismo", "Genética familiar", "Enfermedades crónicas"],
         "población afectada": "Puede afectar a personas de todas las edades, pero es más común en adultos",
-        "material de apoyo": "Para mas información, validar este Link: https://www.argentina.gob.ar/salud/glosario/dislipemia-colesterol-alto",
+        "material de apoyo": "Para más información, validar este Link: https://www.argentina.gob.ar/salud/glosario/dislipemia-colesterol-alto",
         "consejos": [
             "Mantén una dieta equilibrada y rica en fibra.",
             "Realiza actividad física regularmente.",
@@ -142,7 +142,7 @@ enfermedades = {
         "tratamiento": "1. Antivirales para hepatitis B y C \n2. Cambios en el estilo de vida \n3. Vacunación para hepatitis A y B",
         "factores de riesgo": ["Consumo de drogas intravenosas", "Relaciones sexuales sin protección", "Viajes a áreas con alta incidencia de hepatitis"],
         "población afectada": "Afecta a personas de todas las edades, especialmente en áreas con poca atención médica.",
-        "material de apoyo": "Para mas informació,n validar este Link: https://www.who.int/es/health-topics/hepatitis#tab=tab_1",
+        "material de apoyo": "Para más información validar este Link: https://www.who.int/es/health-topics/hepatitis#tab=tab_1",
         "consejos": [
             "Vacúnate contra la hepatitis A y B si aún no lo has hecho.",
             "Evita el consumo de alcohol y drogas.",
@@ -190,7 +190,7 @@ enfermedades = {
         "tratamiento": "1. Terapia antirretroviral (TAR) para controlar la infección\n2. Medicamentos para prevenir infecciones oportunistas\n3. Atención médica de apoyo",
         "factores de riesgo": ["Contacto sexual sin protección","Uso de drogas inyectables","Transfusión de sangre contaminada","Transmisión de madre a hijo durante el embarazo, parto o lactancia"],
         "población afectada": "Puede afectar a personas de todas las edades, géneros e identidades sexuales.", 
-        "material de apoyo": "Para mas información, validar este Link: https://medlineplus.gov/spanish/ency/article/000594.htm",
+        "material de apoyo": "Para más información, validar este Link: https://medlineplus.gov/spanish/ency/article/000594.htm",
         "consejos": [
             "Practica sexo seguro utilizando condones.",
             "No compartas agujas en ninguna circunstancia.",
@@ -204,7 +204,7 @@ enfermedades = {
         "causa": "Infección por la bacteria Mycobacterium tuberculosis.",
         "síntomas": "1. Tos persistente (más de 2 semanas)\n2. Tos con sangre\n3. Pérdida de peso\n4. Dolor (pecho y articulaciones)\n5. Fiebre constante\n6. Sudoración noctura exagerada",
         "diagnóstico": "1. Prueba de la tuberculina (prueba cutánea)\n2. Radiografía de tórax\n3. Examen de esputo (cultivo y tinción)",
-        "factores de riesgo":  "1. Medicamentos antituberculosos (tomados durante varios meses)\n2. Atención médica de apoyo",
+        "tratamiento":  "1. Medicamentos antituberculosos (tomados durante varios meses)\n2. Atención médica de apoyo",
         "factores de riesgo": [ "Exposición a personas con tuberculosis","Sistema inmunitario débil", "Consumo de tabaco", "Diabetes",  "VIH/SIDA" ],
         "población afectada": "Puede afectar a personas de todas las edades, pero es más común en personas con sistemas inmunitarios débiles.",
         "material de apoyo": "Para más información, validar este Link: https://medlineplus.gov/spanish/tuberculosis.html",
@@ -235,8 +235,8 @@ def calcular_probabilidad(enfermedad):
     while True:
         try:
             edad = int(input("Por favor, ingresa tu edad: "))
-            if edad <=0 or edad > 120:
-                print("La edad debe ser un número entero entre 1 y 100.")
+            if edad ==0 or edad > 120:
+                print("La edad debe ser un número entero entre 1 y 120.")
             else:
                 break
         except ValueError:
@@ -265,7 +265,7 @@ def calcular_probabilidad(enfermedad):
 
     probabilidad_final = min(probabilidad_base, 100)  # Limitar a 100%
     print(f"\nLa probabilidad estimada de desarrollar {enfermedades[enfermedad]['nombre']} es del {probabilidad_final:.2f}%.")
-    print("\n Este porcentaje está basado en la información proporcionada. Recuerde que el resultado puede variar, dependiendo de muchos otros factores, sin embargo, si presenta alguno de los síntomas, acuda a su médico de cabecera para una evaluación adecuada.\n")
+    print("\nEste porcentaje está basado en la información proporcionada. Recuerde que el resultado puede variar, dependiendo de muchos otros factores, sin embargo, si presenta alguno de los síntomas, acuda a su médico de cabecera para una evaluación adecuada.\n")
     print(f"Población más afectada:{enfermedades[enfermedad]['población afectada']}")
 
     # Mostrar consejos de cuidado
@@ -282,7 +282,7 @@ def listar_y_seleccionar(tipo):
 
     print("\nSelecciona una enfermedad de la lista:")
     for i, enf in enumerate(enfermedades_filtradas, start=1):
-        print(f"{i}. {enf.capitalize()}")
+        print(f"{i}. {enf}")
 
     try:
         seleccion = int(input("Elige el número correspondiente: ")) - 1
