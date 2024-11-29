@@ -193,7 +193,7 @@ enfermedades = {
         "material de apoyo": "Para mas información, validar este Link: https://medlineplus.gov/spanish/ency/article/000594.htm",
         "consejos": [
             "Practica sexo seguro utilizando condones.",
-            "No compartas agujas en ninguna sircunstancia.",
+            "No compartas agujas en ninguna circunstancia.",
             "Hazte la prueba de VIH regularmente.",
             "Si eres positivo, sigue el tratamiento antirretroviral y mantén una vida saludable."
         ]
@@ -235,7 +235,10 @@ def calcular_probabilidad(enfermedad):
     while True:
         try:
             edad = int(input("Por favor, ingresa tu edad: "))
-            break
+            if edad <=0 or edad > 100:
+                print("La edad debe ser un número entero entre 1 y 100.")
+            else:
+                break
         except ValueError:
             print("Edad no válida. Por favor, ingresa un número entero.")
     
