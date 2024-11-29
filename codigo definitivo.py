@@ -235,7 +235,7 @@ def calcular_probabilidad(enfermedad):
     while True:
         try:
             edad = int(input("Por favor, ingresa tu edad: "))
-            if edad <=0 or edad > 100:
+            if edad <=0 or edad > 120:
                 print("La edad debe ser un número entero entre 1 y 100.")
             else:
                 break
