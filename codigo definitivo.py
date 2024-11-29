@@ -235,7 +235,7 @@ def calcular_probabilidad(enfermedad):
     while True:
         try:
             edad = int(input("Por favor, ingresa tu edad: "))
-            if edad ==0 or edad > 120:
+            if edad <=0 or edad > 120:
                 print("La edad debe ser un número entero entre 1 y 120.")
             else:
                 break
@@ -282,7 +282,7 @@ def listar_y_seleccionar(tipo):
 
     print("\nSelecciona una enfermedad de la lista:")
     for i, enf in enumerate(enfermedades_filtradas, start=1):
-        print(f"{i}. {enf}")
+        print(f"{i}. {enf.capitalize()}")
 
     try:
         seleccion = int(input("Elige el número correspondiente: ")) - 1
